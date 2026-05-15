@@ -4,7 +4,7 @@
   "description": "Proxy backend for BSD Sports API — Gol Score Monitor",
   "main": "server.js",
   "scripts": {
-    "start": "node serveridor.js",
+    "start": "node servidor.js",
     "dev": "nodemon server.js"
   },
   "engines": {
