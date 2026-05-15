@@ -20,7 +20,7 @@ async function bsd(path) {
 }
 
 app.get("/", (req, res) => {
-  res.json({ status: "ok", message: "Gol Score Backend rodando ✅", version: "3.0" });
+  res.json({ status: "ok", message: "Gol Score Backend rodando ", version: "3.0" });
 });
 
 app.get("/api/test", async (req, res) => {
