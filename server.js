@@ -56,4 +56,4 @@ app.get("/api/dashboard", async (req, res) => {
   } catch (e) { res.status(500).json({ error: e.message }); }
 });
 
-app.listen(PORT, () => console.log(✅ Gol Score Backend rodando na porta ${PORT}));
+app.listen(PORT, () => console.log( Gol Score Backend rodando na porta ${PORT}));
